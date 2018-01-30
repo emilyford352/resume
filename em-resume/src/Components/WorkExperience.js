@@ -4,7 +4,7 @@ import Job from './Job';
 class WorkExperience extends Component {
   render() {
     return (
-      <div className="WorkExperience">
+      <div className="WorkExperience col-md-5">
         <h1>
           Work Experience
         </h1>
