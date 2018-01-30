@@ -1,0 +1,29 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Emily's resume!",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyford352/resume.git"
+  },
+  "author": "emily mame ford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilyford352/resume/issues"
+  },
+  "homepage": "https://github.com/emilyford352/resume#readme",
+  "dependencies": {
+    "cartoon": "0.0.8",
+    "create-react-app": "^1.5.1",
+    "express": "^4.16.2",
+    "font-awesome": "^4.7.0",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
