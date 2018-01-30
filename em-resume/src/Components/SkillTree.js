@@ -22,6 +22,7 @@ class SkillTree extends Component {
             <Branch skillName="Python"/>
             <Branch skillName="Java"/>
             <Branch skillName="Selenium"/>
+            {/*
             <div className="tree-base-top">
 
             </div>
@@ -32,7 +33,9 @@ class SkillTree extends Component {
 
             <div className="tree-base-bottom">
 
+
             </div>
+            */}
         </div>
       </div>
     );
