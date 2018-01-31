@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import ReactTooltip from 'react-tooltip'
-
 
 class MetaLinks extends Component {
   render() {

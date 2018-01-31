@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import Eevee from '../Images/eevee.png';
-import Duncan from '../Images/duncan.png';
-import PinkDuncan from '../Images/duncanpink.png';
-import BlueDuncan from '../Images/duncanblue.png';
 
 class Interests extends Component {
   render() {

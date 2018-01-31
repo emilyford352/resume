@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Cloud from './Cloud';
-import ReactTooltip from 'react-tooltip';
 
 class Overlay extends Component {
   render() {

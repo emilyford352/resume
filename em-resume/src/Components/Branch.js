@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Branch from './Branch';
 
 class SkillTree extends Component {
   render() {
