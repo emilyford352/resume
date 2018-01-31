@@ -12,6 +12,7 @@ import SkillTree from './Components/SkillTree';
 import Eevee from './Images/eevee.png';
 import Sedona from './Images/sedona.JPG';
 import Overlay from './Components/Overlay';
+import TimeLine from './Components/TimeLine';
 
 class App extends Component {
     constructor() {
@@ -47,13 +48,9 @@ class App extends Component {
                     <ImagePane />
                     <div className="resume-data">
                         <AboutMe />
-                        <Education />
-                        <div className="container">
-                            <div className="row">
-                                <SkillTree />
-                                <WorkExperience />
-                            </div>
-                        </div>
+                        <TimeLine />
+
+                        <SkillTree/>
                         <Interests />
                     </div>
                     <Footer />

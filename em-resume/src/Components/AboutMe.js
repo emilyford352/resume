@@ -11,8 +11,9 @@ class AboutMe extends Component {
                       About Me
                     </h1>
                     <p>
-                      Hi! I'm Emily. I'm an extremely driven, passionate and creative front end engineer. I love JavaScript,
-                      my pets and any and all puns. Take a look around or download the PDF version of my resume!
+                      Hi! I'm Emily. I'm an extremely driven, passionate and creative Front End Software Engineer. I love JavaScript,
+                      my pets and any and all puns. I'm currently learning React JS (this site was built in React) among other things!
+                        Take a look around or download the PDF version of my resume!
                     </p>
                   </div>
               </div>

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bee9da7-5974-477e-bb96-6d149bfd15dc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em-resume/src/Components/TimeLine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/em-resume/src/Components/TimeLineObject.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/em-resume/src/App.js" afterPath="$PROJECT_DIR$/em-resume/src/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/em-resume/src/CSS/App.css" afterPath="$PROJECT_DIR$/em-resume/src/CSS/App.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/em-resume/src/Components/AboutMe.js" afterPath="$PROJECT_DIR$/em-resume/src/Components/AboutMe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/em-resume/src/Components/Interests.js" afterPath="$PROJECT_DIR$/em-resume/src/Components/Interests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/em-resume/src/Components/Overlay.js" afterPath="$PROJECT_DIR$/em-resume/src/Components/Overlay.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/em-resume/src/Components/SkillTree.js" afterPath="$PROJECT_DIR$/em-resume/src/Components/SkillTree.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,21 +26,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ImagePane.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/em-resume/src/Components/ImagePane.js">
+      <file leaf-file-name="AboutMe.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/em-resume/src/Components/AboutMe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="40" />
+            <state relative-caret-position="270">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutMe.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/em-resume/src/Components/AboutMe.js">
+      <file leaf-file-name="WorkExperience.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/em-resume/src/Components/WorkExperience.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="90">
+              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -49,8 +49,8 @@
       <file leaf-file-name="MetaLinks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/em-resume/src/Components/MetaLinks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="225">
+              <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -58,11 +58,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkExperience.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/em-resume/src/Components/WorkExperience.js">
+      <file leaf-file-name="TimeLine.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/em-resume/src/Components/TimeLine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="105" lean-forward="false" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeLineObject.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/em-resume/src/Components/TimeLineObject.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -78,11 +90,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Job.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/em-resume/src/Components/Job.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/em-resume/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+            <state relative-caret-position="406">
+              <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
               <folding>
                 <element signature="e#76#99#0" expanded="true" />
               </folding>
@@ -90,33 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Overlay.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/em-resume/src/Components/Overlay.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cloud.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/em-resume/src/Components/Cloud.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/em-resume/src/CSS/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2715">
-              <caret line="181" column="10" lean-forward="true" selection-start-line="181" selection-start-column="10" selection-end-line="181" selection-end-column="10" />
+            <state relative-caret-position="538">
+              <caret line="211" column="20" lean-forward="false" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -125,8 +125,8 @@
       <file leaf-file-name="Interests.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/em-resume/src/Components/Interests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+            <state relative-caret-position="180">
+              <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -158,11 +158,15 @@
       <find>offset</find>
       <find>welcome</find>
       <find>Header</find>
+      <find>tree-contane</find>
+      <find>Job</find>
+      <find>timeline</find>
     </findStrings>
     <replaceStrings>
       <replace>Education</replace>
       <replace>Interests</replace>
       <replace>SkillTree</replace>
+      <replace>TimeLineObject</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -201,12 +205,14 @@
         <option value="$PROJECT_DIR$/em-resume/src/Components/MetaLinks.js" />
         <option value="$PROJECT_DIR$/em-resume/src/Components/WorkExperience.js" />
         <option value="$PROJECT_DIR$/em-resume/src/Components/Cloud.js" />
-        <option value="$PROJECT_DIR$/em-resume/src/App.js" />
         <option value="$PROJECT_DIR$/em-resume/src/Components/Overlay.js" />
         <option value="$PROJECT_DIR$/em-resume/src/Components/Interests.js" />
+        <option value="$PROJECT_DIR$/em-resume/src/Components/SkillTree.js" />
+        <option value="$PROJECT_DIR$/em-resume/src/Components/TimeLineObject.js" />
+        <option value="$PROJECT_DIR$/em-resume/src/App.js" />
         <option value="$PROJECT_DIR$/em-resume/src/CSS/App.css" />
         <option value="$PROJECT_DIR$/em-resume/src/Components/AboutMe.js" />
-        <option value="$PROJECT_DIR$/em-resume/src/Components/SkillTree.js" />
+        <option value="$PROJECT_DIR$/em-resume/src/Components/TimeLine.js" />
       </list>
     </option>
   </component>
@@ -229,9 +235,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="247" />
+    <option name="x" value="113" />
     <option name="y" value="23" />
-    <option name="width" value="1179" />
+    <option name="width" value="1313" />
     <option name="height" value="852" />
   </component>
   <component name="ProjectView">
@@ -291,28 +297,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resume" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resume" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="em-resume" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -597,18 +581,18 @@
       <updated>1516924268225</updated>
       <workItem from="1516924269463" duration="27836000" />
       <workItem from="1517278090287" duration="7753000" />
-      <workItem from="1517332082824" duration="8613000" />
+      <workItem from="1517332082824" duration="12109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44202000" />
+    <option name="totallyTimeSpent" value="47698000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="247" y="23" width="1179" height="852" extended-state="0" />
+    <frame x="113" y="23" width="1313" height="852" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21243523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19040248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -659,8 +643,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/emilymame/views/index.hbs" />
-    <entry file="file://$PROJECT_DIR$/emilymame/routes/index.js" />
     <entry file="file://$PROJECT_DIR$/emilymame/bin/www" />
     <entry file="file://$PROJECT_DIR$/em-resume/views/layout.pug" />
     <entry file="file://$PROJECT_DIR$/em-resume/routes/index.js" />
@@ -758,14 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/em-resume/src/Components/Job.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/em-resume/src/Components/Branch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -860,16 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/em-resume/src/Components/MetaLinks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/em-resume/src/Components/Overlay.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -880,38 +844,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/em-resume/src/CSS/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2715">
-          <caret line="181" column="10" lean-forward="true" selection-start-line="181" selection-start-column="10" selection-end-line="181" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/em-resume/src/Components/Interests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        <state relative-caret-position="180">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/em-resume/src/Components/AboutMe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/em-resume/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-          <folding>
-            <element signature="e#76#99#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -924,11 +862,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/em-resume/src/Components/Job.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/em-resume/src/Components/WorkExperience.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/em-resume/src/Components/MetaLinks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/em-resume/src/Components/TimeLineObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/em-resume/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding>
+            <element signature="e#76#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/em-resume/src/CSS/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="211" column="20" lean-forward="false" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/em-resume/src/Components/AboutMe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/em-resume/src/Components/TimeLine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="105" lean-forward="false" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

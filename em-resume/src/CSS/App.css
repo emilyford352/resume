@@ -62,6 +62,7 @@
 .tree-container {
   width: 100%;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .tree {
@@ -191,3 +192,22 @@ a {
 
 @-webkit-keyframes move_eye { from { margin-left: 0%; } to { margin-left: 100%; }  }
 @keyframes move_eye { from { margin-left: 0%; } to { margin-left: 100%; }  }
+
+.timeline-object {
+  border-left: 1px solid darkcyan;
+  margin-bottom: 20px;
+}
+
+.timeline-object-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.timeline-object-position {
+  font-size: 25px;
+}
+
+.timeline {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
