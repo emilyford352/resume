@@ -7,7 +7,7 @@ import BlueDuncan from '../Images/duncanblue.png';
 class Interests extends Component {
   render() {
     return (
-      <div className="Interests">
+      <div className="Interests data-section">
         <div className="container">
             <div className="row">
               <div className="col-md-6 offset-3">

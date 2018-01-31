@@ -62,7 +62,6 @@
 .tree-container {
   width: 100%;
   text-align: center;
-  padding-bottom: 20px;
 }
 
 .tree {
@@ -120,12 +119,6 @@ a {
 
 .fa-graduation-cap {
   font-size: 45px !important;
-}
-
-.Education,
-.Interests
-{
-  margin-bottom: 50px;
 }
 
 #overlay {
@@ -207,7 +200,12 @@ a {
   font-size: 25px;
 }
 
-.timeline {
-  padding-bottom: 20px;
-  padding-top: 20px;
+.data-container {
+  background-color: whitesmoke;
+}
+
+.data-section,
+.timeline-header
+{
+  padding-bottom: 25px;
 }

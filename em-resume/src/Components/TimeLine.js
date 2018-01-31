@@ -4,18 +4,18 @@ import TimeLineObject from './TimeLineObject';
 class TimeLine extends Component {
   render() {
     return (
-      <div className="timeline">
-          <h1>
+      <div className="timeline data-section">
+          <h1 className="timeline-header">
               Timeline
           </h1>
           <div className="container">
               <div className="timeline">
                   <TimeLineObject title="Synopsys" dates="1/17-Present" position="Software Engineer" description="Black Duck was aquired
                     by Synopsys in the beginning of January. I am currently fulfilling an equivalent position to my position at Black Duck, working as a front end developer on the flagship product, The Hub."/>
-                  <TimeLineObject title="Black Duck Software" dates="5/17-12/17" position="Software Engineer" description="Black Duck Software is a company that focuses
+                  <TimeLineObject title="Black Duck Software" dates="5/17-12/17" position="Software Engineer" description="My role as a
+                  Software Engineer for Black Duck Software was one of the most crucial roles of my career. Black Duck Software is a company that focuses
                   on open source software. Their main product, The Hub, is a product which customers can scan their codebase and get a list of vulnerabilities, operational risk
-                  and licensing issues their code may have. My role as a
-                  Software Engineer for Black Duck Software was one of the most crucial roles of my career. I was able
+                  and licensing issues their code may have.  I was able
                   to transition from being a Quality Assurance Engineer at the company to being a developer with only a few months of doing
                   overlapping work. Black Duck runs Hackathons for its engineers to participate in twice a year. I had been considering the
                   transition from quality assurance to front end engineering for awhile do to my extreme interested in UX/UI and projects in college that I
@@ -37,7 +37,7 @@ class TimeLine extends Component {
                   thoroughly enjoyed; from there I knew I definitely wanted to be writing software! At this company, I tested and wrote scripts throughout release cycles to test
                   C Squared’s software product, SitePortal, a site consumers use to track their RF device health."/>
                   <TimeLineObject title="Virgin Pulse" dates="December 2014 - July 2015" position="QA Engineer Intern/Support Analyst" description="
-                    Virgin Pulse is an exquisite company, focusing on healthcare within the workplace. This was the first company that
+                    Virgin Pulse is an amazing company, focusing on healthcare within the workplace. This was the first company that
                     I was introduced to the software development lifecycle and the agile process. In this position, I designed test cases for
                      scenarios throughout the Virgin Pulse site. I also participated in bi-weekly code releases to ensure code quality and ran tests during
                      the release to confirm code went through to the server. I was able to put my SQL knowledge to good use
