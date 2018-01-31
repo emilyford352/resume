@@ -4,9 +4,9 @@ import Branch from './Branch';
 class SkillTree extends Component {
   render() {
     return (
-      <div className="tree-container col-md-5">
+      <div className="tree-container col-md-5 col-sm-offset-2 col-md-6 col-md-offset-0">
         <h1>
-            Languages, Frameworks, oh my!
+            Languages & Frameworks
         </h1>
         <div className="tree">
             <Branch skillName="Javascript"/>

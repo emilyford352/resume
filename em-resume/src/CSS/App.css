@@ -121,6 +121,62 @@ a {
   font-size: 45px !important;
 }
 
-.Education {
+.Education,
+.Interests
+{
   margin-bottom: 50px;
 }
+
+#overlay {
+  background-color: #cdf2e1;
+  font-size: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.welcome-screen {
+  z-index: 5;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.clouds {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: hidden;
+  animation: FadeIn 3s ease-out;
+  user-select: none;
+}
+
+.cloud {
+  position: relative;
+  color: white;
+  /* animation-direction: alternate-reverse; */
+  -webkit-animation: 10s linear 0s infinite move_eye;
+  animation: 10s linear 0s infinite move_eye;
+}
+
+.cloud-1 {
+  font-size: 200px;
+  padding-left: 500px;
+}
+
+.cloud-2 {
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+.cloud-3 {
+  padding-left: 200px;
+  font-size: 150px;
+}
+
+@-webkit-keyframes move_eye { from { margin-left: 0%; } to { margin-left: 100%; }  }
+@keyframes move_eye { from { margin-left: 0%; } to { margin-left: 100%; }  }
