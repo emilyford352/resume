@@ -14,36 +14,54 @@ import Sedona from './Images/sedona.JPG';
 import Overlay from './Components/Overlay';
 
 class App extends Component {
-  render() {
-    return (
-        <Overlay/>
-    );
-  }
-      /*
-    return (
-      <div className="App">
-          <div id="background">
-              <img id="background-image" src={Eevee}/>
-          </div>
-          <div id="content">
-          <PageHeader />
-          <ImagePane />
-          <div className="resume-data">
-            <AboutMe />
-            <Education />
-            <div className="container">
-                <div className="row">
-                    <SkillTree />
-                    <WorkExperience />
+    constructor() {
+      super();
+      this.state = {overlay: 'on'};
+    }
+
+    componentDidMount () {
+        document.addEventListener('click', () => this.removeOverlay());
+    }
+
+    componentWillUnmount () {
+        document.removeEventListener('click', this.removeOverlay);
+    }
+
+    removeOverlay () {
+        this.setState({ overlay: 'off' });
+    }
+
+    render() {
+    if (this.state.overlay === 'on') {
+        return (
+            <Overlay/>
+        );
+    } else {
+        return (
+            <div className="App">
+                <div id="background">
+                    <img id="background-image" src={Eevee}/>
+                </div>
+                <div id="content">
+                    <PageHeader />
+                    <ImagePane />
+                    <div className="resume-data">
+                        <AboutMe />
+                        <Education />
+                        <div className="container">
+                            <div className="row">
+                                <SkillTree />
+                                <WorkExperience />
+                            </div>
+                        </div>
+                        <Interests />
+                    </div>
+                    <Footer />
                 </div>
             </div>
-            <Interests />
-          </div>
-          <Footer />
-          </div>
-      </div>
-    );
-  }*/
+        );
+    }
+    }
 }
 
 export default App;

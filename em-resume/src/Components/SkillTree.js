@@ -17,25 +17,10 @@ class SkillTree extends Component {
             <Branch skillName="Pug"/>
             <Branch skillName="Express"/>
             <Branch skillName="HTML/CSS"/>
-            <Branch skillName="HTML/CSS"/>
             <Branch skillName="C"/>
             <Branch skillName="Python"/>
             <Branch skillName="Java"/>
             <Branch skillName="Selenium"/>
-            {/*
-            <div className="tree-base-top">
-
-            </div>
-
-            <div className="tree-base">
-
-            </div>
-
-            <div className="tree-base-bottom">
-
-
-            </div>
-            */}
         </div>
       </div>
     );

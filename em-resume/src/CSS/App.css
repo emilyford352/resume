@@ -128,8 +128,9 @@ a {
 }
 
 #overlay {
-  background-color: #cdf2e1;
-  font-size: 100px;
+  //background-color: #cdf2e1;
+  background-color: darkcyan;
+  color: darkgray;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -141,6 +142,11 @@ a {
   z-index: 5;
   text-align: center;
   margin-top: 100px;
+  position: relative;
+}
+
+.welcome {
+  font-size: 100px;
 }
 
 .clouds {
@@ -176,6 +182,11 @@ a {
 .cloud-3 {
   padding-left: 200px;
   font-size: 150px;
+}
+
+.cloud-4 {
+  padding-left: 400px;
+  font-size: 400px;
 }
 
 @-webkit-keyframes move_eye { from { margin-left: 0%; } to { margin-left: 100%; }  }
