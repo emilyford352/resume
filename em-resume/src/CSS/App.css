@@ -38,6 +38,7 @@
 .Header {
   background-color: darkgray;
   padding-top: 10px;
+  padding-left: 10px;
 }
 
 .col-centered {
@@ -159,8 +160,8 @@ a {
   position: relative;
   color: white;
   /* animation-direction: alternate-reverse; */
-  -webkit-animation: 10s linear 0s infinite move_eye;
-  animation: 10s linear 0s infinite move_eye;
+  -webkit-animation: 15s linear 0s infinite move_eye;
+  animation: 15s linear 0s infinite move_eye;
 }
 
 .cloud-1 {
@@ -183,8 +184,8 @@ a {
   font-size: 400px;
 }
 
-@-webkit-keyframes move_eye { from { margin-left: 0%; } to { margin-left: 100%; }  }
-@keyframes move_eye { from { margin-left: 0%; } to { margin-left: 100%; }  }
+@-webkit-keyframes move_eye { from { margin-left: -60%; } to { margin-left: 100%; }  }
+@keyframes move_eye { from { margin-left: -60%; } to { margin-left: 100%; }  }
 
 .timeline-object {
   border-left: 1px solid darkcyan;
